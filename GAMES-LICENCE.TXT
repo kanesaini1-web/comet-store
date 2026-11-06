@@ -1,0 +1,81 @@
+Games for Comet: Brick Breaker, Block Drop, Sky Defenders, Rock Blaster and Floppy.
+
+They are the "classics" of raylib-games (https://github.com/raysan5/raylib-games) by
+Ramon Santamaria (@raysan5), built with raylib 5.5 (https://www.raylib.com).
+
+ALTERED VERSIONS (as the zlib licence below asks to be said plainly): only the window
+titles were changed, from "classic game: arkanoid / tetris / space invaders /
+asteroids / floppy" to the names above. The games are otherwise unchanged.
+These are not the original arcade games and are not connected with their makers;
+their names belong to their owners.
+
+raylib also contains: GLFW (zlib/libpng licence, below), and single-file libraries
+that are public domain or MIT-licensed (stb, miniaudio, dr_libs, cgltf, qoi, qoa,
+par_shapes, tinyobj_loader, msf_gif, sdefl/sinfl, m3d, vox_loader, jar_xm/jar_mod,
+glad, dirent).
+
+==================== raylib-games (LICENSE) ====================
+
+Copyright (c) 2013-2024 Ramon Santamaria (@raysan5)
+
+This software is provided "as-is", without any express or implied warranty. In no event 
+will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial 
+applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not claim that you 
+  wrote the original software. If you use this software in a product, an acknowledgment 
+  in the product documentation would be appreciated but is not required.
+
+  2. Altered source versions must be plainly marked as such, and must not be misrepresented
+  as being the original software.
+
+  3. This notice may not be removed or altered from any source distribution.
+
+
+==================== raylib 5.5 (LICENSE) ====================
+
+Copyright (c) 2013-2024 Ramon Santamaria (@raysan5)
+
+This software is provided "as-is", without any express or implied warranty. In no event 
+will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial 
+applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not claim that you 
+  wrote the original software. If you use this software in a product, an acknowledgment 
+  in the product documentation would be appreciated but is not required.
+
+  2. Altered source versions must be plainly marked as such, and must not be misrepresented
+  as being the original software.
+
+  3. This notice may not be removed or altered from any source distribution.
+
+
+==================== GLFW (LICENSE.md) ====================
+
+Copyright (c) 2002-2006 Marcus Geelnard
+
+Copyright (c) 2006-2019 Camilla Löwy
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would
+   be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not
+   be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source
+   distribution.
+

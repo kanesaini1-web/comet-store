@@ -1,0 +1,291 @@
+# The Comet Store's catalogue - made by store/make_store.py, do not edit by hand.
+# One block per app; the format is described at the top of store.cpp.
+# Paid apps (price above 0, in cents) are bought in TEST MODE: no money moves.
+
+[sqlite]
+name        = SQLite
+developer   = SQLite project (public domain)
+version     = 3.50.4
+kind        = Windows
+category    = Developer tools
+file        = SQLITE3.EXE
+download    = apps/SQLITE3.EXE
+size        = 1274880
+sha256      = d8416c07ab72235a960c0d227c6e71ccb485395430a55d46ef5072bdc9944753
+price       = 0
+icon        = icons/sqlite.png
+screenshots = shots/sqlite_1.png
+tagline     = The world's most used database, in a window
+about       = SQLite keeps a whole database in one file. Make tables, fill them, and ask questions in SQL.\nTry: .open pets.db, then create table pets(name text, age int); and select * from pets;\nSQLite is in the public domain.
+whatsnew    = New in the Comet Store. Saves real database files on Comet's disk.
+featured    = yes
+
+[lua]
+name        = Lua 5.4
+developer   = Lua.org, PUC-Rio
+version     = 5.4.7
+kind        = Windows
+category    = Developer tools
+file        = LUA.EXE
+download    = apps/LUA.EXE
+size        = 281088
+sha256      = de24a67163f1d3486dfd599028aaefcc49e13ca8f9839c8976b8570df54dbd94
+price       = 0
+icon        = icons/lua.png
+screenshots = shots/lua_1.png
+tagline     = A small, fast programming language
+about       = Lua is a powerful, light programming language used in games and apps everywhere.\nType a line of Lua and press Enter to run it. MIT licence.
+whatsnew    = Lines up columns properly now (tabs work).
+featured    = yes
+
+[lua-linux]
+name        = Lua 5.4 for Linux
+developer   = Lua.org, PUC-Rio
+version     = 5.4.7
+kind        = Linux
+category    = Developer tools
+file        = LUA.ELF
+download    = apps/LUA.ELF
+size        = 362912
+sha256      = a831052bf4c39736b58aba36007adbc0ba6061ed526bedccf00ce509bc084804
+price       = 0
+icon        = icons/lualinux.png
+screenshots = shots/lualinux_1.png
+tagline     = The same Lua, built for Linux - Comet runs those too
+about       = This is the Linux build of Lua 5.4. Comet runs Linux programs as well as Windows ones.\nMIT licence.
+
+[g2048]
+name        = 2048
+developer   = Comet
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = G2048.EXE
+download    = apps/G2048.EXE
+size        = 45056
+sha256      = 6c0505106d5f5e4b5f603b78e1673290e574351b320eb03b0f35828174e71259
+price       = 0
+icon        = icons/g2048.png
+screenshots = shots/g2048_1.png
+tagline     = Slide the tiles, join the numbers, reach 2048
+about       = Use the arrow keys to slide every tile. Two tiles with the same number join into one.\nCan you make a 2048 tile? Your best score is kept while the game is open.
+whatsnew    = First version.
+featured    = yes
+
+[snake]
+name        = Snake
+developer   = Comet
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = SNAKE.EXE
+download    = apps/SNAKE.EXE
+size        = 45056
+sha256      = b8e83ca549634c9413e834cee5086f6a44631f9c34950298bd9b0fbc7113d26b
+price       = 0
+icon        = icons/snake.png
+screenshots = shots/snake_1.png
+tagline     = Eat, grow, and don't bite your own tail
+about       = Steer with the arrow keys. Each apple makes the snake longer and the game faster.\nSpace pauses.
+whatsnew    = First version.
+
+[mines]
+name        = Mines
+developer   = Comet
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = MINES.EXE
+download    = apps/MINES.EXE
+size        = 45568
+sha256      = b9a5894bac41a97afb3fa6e1f7668cae95738c939de69727404791948a535512
+price       = 0
+icon        = icons/mines.png
+screenshots = shots/mines_1.png
+tagline     = Clear the field without touching a mine
+about       = Click a square to open it. A number says how many mines touch it.\nRight-click (or Shift+click) to put a flag where you think a mine is.
+whatsnew    = First version.
+
+[sudoku]
+name        = Sudoku
+developer   = Comet
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = SUDOKU.EXE
+download    = apps/SUDOKU.EXE
+size        = 45568
+sha256      = 133d1b77e5e2eabd37b2b166fc73b79ab065c1e9989e1d0546c30b3e87c39f5b
+price       = 99
+icon        = icons/sudoku.png
+screenshots = shots/sudoku_1.png
+tagline     = A new puzzle every time, each with exactly one answer
+about       = Fill the grid so every row, column and box has 1 to 9 once.\nClick a square and type a number. H gives a hint, N makes a new puzzle.\nThis is the Store's example of a PAID app: buying it is TEST MODE, no money moves.
+whatsnew    = First version.
+
+[guess]
+name        = Guess the Number
+developer   = Comet
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = GUESS.EXE
+download    = apps/GUESS.EXE
+size        = 40448
+sha256      = c8baaaa5aa12b0e5a191561ef1d9ff2644b6ab4d844b0216373fb2c6016fc227
+price       = 0
+icon        = icons/guess.png
+screenshots = shots/guess_1.png
+tagline     = Comet thinks of a number - you find it
+about       = A tiny game: Comet picks a number from 1 to 100, and tells you if each guess is too big or too small.
+
+[hellowin]
+name        = Hello Windows
+developer   = Comet
+version     = 1.0
+kind        = Windows
+category    = Utilities
+file        = HELLOWIN.EXE
+download    = apps/HELLOWIN.EXE
+size        = 40960
+sha256      = 42c262101e3573362a1084dfaab8997eed796b4014d9b250fe08534e99016441
+price       = 0
+icon        = icons/hellowin.png
+screenshots = shots/hellowin_1.png
+tagline     = Shows what Comet's Windows layer can do
+about       = A small Windows program that tries memory, numbers, files and timers, and shows that each one works on Comet.
+
+[python]
+name        = Python
+developer   = MicroPython (micropython.org)
+version     = 1.30
+kind        = Windows
+category    = Developer tools
+file        = PYTHON.EXE
+download    = apps/PYTHON.EXE
+size        = 551936
+sha256      = 9dd649b87fa3a8ab5b9553fdc1f7c32f53b890117cc7f10f08d93a3b2842cd45
+price       = 0
+icon        = icons/python.png
+screenshots = shots/python_1.png, shots/python_2.png
+tagline     = The Python language - type code and see it run
+about       = Python is one of the world's favourite programming languages. This is MicroPython, a small and fast Python 3.\nType Python at its >>> prompt, or run a program: open hello.py in Nebula or the terminal.\nIt can make and read files and folders on Comet's disk. MIT licence.
+whatsnew    = New in the Comet Store. Up and Down bring back earlier lines; arguments: run python.exe hello.py one two.
+featured    = yes
+
+[jq]
+name        = jq
+developer   = jq project (jqlang.org)
+version     = 1.8.1+
+kind        = Windows
+category    = Developer tools
+file        = JQ.EXE
+download    = apps/JQ.EXE
+size        = 988672
+sha256      = 0eb6c510a0df72be0e839ba77bc8965a54079e8120ab6d5186f7bc01d27ea972
+price       = 0
+icon        = icons/jq.png
+screenshots = shots/jq_1.png
+tagline     = Slice, filter and reshape JSON data
+about       = jq is like sed for JSON: pick out, filter, change and pretty-print JSON data.\nTry: run jq.exe . data.json - or a filter: run jq.exe ".pets[] | .name" data.json\nColours and all, just as on other computers. MIT licence (see JQ-LICENCE.TXT).
+whatsnew    = New in the Comet Store.
+
+[quickjs]
+name        = JavaScript
+developer   = QuickJS (bellard.org)
+version     = 2026-06-04
+kind        = Windows
+category    = Developer tools
+file        = QJS.EXE
+download    = apps/QJS.EXE
+size        = 1111040
+sha256      = cbe09aac7574cd2ae12087e71b4f75c3126319c85c5410e386cfa9c371877d03
+price       = 0
+icon        = icons/qjs.png
+screenshots = shots/qjs_1.png
+tagline     = Modern JavaScript, at a prompt or from a file
+about       = QuickJS is a small, complete JavaScript engine - the same one inside Stars, Comet's browser.\nType JavaScript at its qjs > prompt (it colours what you type), or run a program: open hello.js in Nebula or the terminal.\nClasses, async, BigInt, modules, and std / os for files. MIT licence (see QJS-LICENCE.TXT).
+whatsnew    = New in the Comet Store.
+featured    = yes
+
+[bricks]
+name        = Brick Breaker
+developer   = raylib-games (Ramon Santamaria)
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = BRICKS.EXE
+download    = apps/BRICKS.EXE
+size        = 781312
+sha256      = 2a6e2f697a0efbddd578dadb65a0c5bd462c28d18706b5f35313fc5e5c108f27
+price       = 0
+icon        = icons/bricks.png
+screenshots = shots/bricks_1.png
+tagline     = Bounce the ball, break every brick
+about       = Move the paddle with Left and Right. Space sends the ball off. Break the whole wall - you have 5 balls.\nP pauses, Enter starts again. A raylib classic (zlib licence, see GAMES-LICENCE.TXT).
+whatsnew    = New in the Comet Store - drawn with Comet's own OpenGL.
+featured    = yes
+
+[blocks]
+name        = Block Drop
+developer   = raylib-games (Ramon Santamaria)
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = BLOCKS.EXE
+download    = apps/BLOCKS.EXE
+size        = 783360
+sha256      = 47220bbf67264c80c452eaf336b70f866535e951db60cae486a92761573de7a1
+price       = 0
+icon        = icons/blocks.png
+screenshots = shots/blocks_1.png
+tagline     = Turn and drop the falling blocks to clear lines
+about       = Left and Right move the falling piece, Up turns it, Down drops it faster. Fill a whole line to clear it.\nA raylib classic (zlib licence, see GAMES-LICENCE.TXT).
+
+[defend]
+name        = Sky Defenders
+developer   = raylib-games (Ramon Santamaria)
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = DEFEND.EXE
+download    = apps/DEFEND.EXE
+size        = 781824
+sha256      = e019575984d496a0e566d0a9c219c5818d9fe2a6109d286db89e9e3ffbeee456
+price       = 0
+icon        = icons/defend.png
+screenshots = shots/defend_1.png
+tagline     = Three waves of invaders - hold them off
+about       = Arrow keys move, Space fires. Survive three waves to win.\nA raylib classic (zlib licence, see GAMES-LICENCE.TXT).
+
+[rocks]
+name        = Rock Blaster
+developer   = raylib-games (Ramon Santamaria)
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = ROCKS.EXE
+download    = apps/ROCKS.EXE
+size        = 783872
+sha256      = e658465e3f8e37d88ea4e4842349d6519154835d2eb77ef9574552dfc5d14d87
+price       = 0
+icon        = icons/rocks.png
+screenshots = shots/rocks_1.png
+tagline     = Fly your ship and blast the drifting rocks
+about       = Left and Right turn, Up thrusts, Space fires. Big rocks break into smaller ones.\nA raylib classic (zlib licence, see GAMES-LICENCE.TXT).
+
+[floppy]
+name        = Floppy
+developer   = raylib-games (Ramon Santamaria)
+version     = 1.0
+kind        = Windows
+category    = Games
+file        = FLOPPY.EXE
+download    = apps/FLOPPY.EXE
+size        = 780288
+sha256      = 4dfcde81ed7a2fd502f2be9861ad51a62d1298e58b8b56494b702b52ac484360
+price       = 0
+icon        = icons/floppy.png
+screenshots = shots/floppy_1.png
+tagline     = Hold Space to fly between the pipes
+about       = Hold Space to rise, let go to fall. How many pipes can you pass?\nA raylib classic (zlib licence, see GAMES-LICENCE.TXT).
